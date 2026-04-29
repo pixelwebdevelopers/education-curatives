@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Facebook, Linkedin, Instagram, MapPin, Phone, Mail, Clock, Globe2 } from "lucide-react";
-import logo from "@/assets/logo-ec.png";
+import logo from "@/assets/logo.png";
+import pixelLogo from "@/assets/pixel-logo.png";
 
 export function Footer() {
   return (
@@ -120,7 +121,18 @@ export function Footer() {
       <div className="relative border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-navy-foreground/55">
           <p>© {new Date().getFullYear()} Education Curatives. All rights reserved.</p>
-          <p className="tracking-wider uppercase">Curate · Guide · Elevate</p>
+          <div className="flex items-center gap-2">
+            <span className="text-navy-foreground/40">Developed by</span>
+            <a 
+              href="https://pixelwebdevelopers.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 group transition-opacity hover:opacity-80"
+            >
+              <span className="font-semibold text-[#FF6600]">Pixel Web Developers</span>
+              <img src={pixelLogo} alt="Pixel" className="h-4 w-auto brightness-0 invert opacity-40 group-hover:opacity-100 transition-all" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
