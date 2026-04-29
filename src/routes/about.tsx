@@ -113,7 +113,7 @@ function About() {
         <div className="mx-auto max-w-7xl px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
             { v: 1200, s: "+", l: "Acceptances" },
-            { v: 96, s: "%", l: "Visa Approval" },
+            { v: 75, s: "%", l: "Visa Approval" },
             { v: 120, s: "+", l: "Universities" },
             { v: 5, s: "", l: "Countries" },
           ].map((s, i) => (
