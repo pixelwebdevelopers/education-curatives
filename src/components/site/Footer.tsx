@@ -130,7 +130,7 @@ export function Footer() {
               className="flex items-center gap-1.5 group transition-opacity hover:opacity-80"
             >
               <span className="font-semibold text-[#FF6600]">Pixel Web Developers</span>
-              <img src={pixelLogo} alt="Pixel" className="h-4 w-auto brightness-0 invert opacity-40 group-hover:opacity-100 transition-all" />
+              <img src={pixelLogo} alt="Pixel" className="h-4 w-auto  transition-all" />
             </a>
           </div>
         </div>
