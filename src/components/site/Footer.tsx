@@ -72,7 +72,7 @@ export function Footer() {
               <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
               <span>
                 <span className="font-semibold text-navy-foreground block">Pakistan Office</span>
-                House 761, St 7e, Lane 7,<br />
+                Building 761, St 7e, Lane 7,<br />
                 Gulistan colony, Rawalpindi<br />
                 <span className="text-[10px] opacity-60">(Near Joyland)</span>
               </span>

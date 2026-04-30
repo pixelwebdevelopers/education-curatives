@@ -10,7 +10,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact Education Curatives — Rawalpindi & Wallan Offices" },
-      { name: "description", content: "Visit Education Curatives at House 761, St 7e, Lane 7, Gulistan colony, Rawalpindi or our Wallan, Victoria office. Call +92 327 5873923 or +92 333 5400462 for a free discovery call." },
+      { name: "description", content: "Visit Education Curatives at Building 761, St 7e, Lane 7, Gulistan colony, Rawalpindi or our Wallan, Victoria office. Call +92 327 5873923 or +92 333 5400462 for a free discovery call." },
       { property: "og:title", content: "Contact Education Curatives" },
       { property: "og:description", content: "Free discovery call — let's curate your global future." },
       { property: "og:image", content: building },
@@ -110,7 +110,7 @@ function Contact() {
                   </div>
                   <div className="text-sm leading-relaxed">
                     <div className="font-semibold mb-1">Pakistan Studio</div>
-                    House 761, St 7e, Lane 7,<br />
+                    Building 761, St 7e, Lane 7,<br />
                     Gulistan colony, Rawalpindi<br />
                     <span className="opacity-60 text-xs">(Near Joyland)</span>
                   </div>

@@ -181,7 +181,7 @@ const faqs = [
   },
   {
     q: "How do I get started?",
-    a: "Send us a message, call +92 327 5873923 or +92 333 5400462, or visit our Rawalpindi office in Gulistan Colony (House 761, St 7e, Lane 7). The first consultation is always free.",
+    a: "Send us a message, call +92 327 5873923 or +92 333 5400462, or visit our Rawalpindi office in Gulistan Colony (Building 761, St 7e, Lane 7). The first consultation is always free.",
   },
 ];
 
