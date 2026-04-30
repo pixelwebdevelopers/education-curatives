@@ -181,7 +181,7 @@ const faqs = [
   },
   {
     q: "How do I get started?",
-    a: "Send us a message, call +92 327 5873923, or visit our Rawalpindi office on Jhelum Road. The first consultation is always free.",
+    a: "Send us a message, call +92 327 5873923 or +92 333 5400462, or visit our Rawalpindi office in Gulistan Colony (House 761, St 7e, Lane 7). The first consultation is always free.",
   },
 ];
 
@@ -683,12 +683,20 @@ function Home() {
               >
                 Book Discovery Call <ArrowRight className="h-5 w-5" />
               </Link>
-              <a
-                href="tel:+923275873923"
-                className="inline-flex items-center justify-center gap-3 bg-white/5 backdrop-blur-xl border border-white/20 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all text-white w-full sm:w-auto"
-              >
-                <Headphones className="h-5 w-5" /> +92 327 5873923
-              </a>
+              <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                <a
+                  href="tel:+923275873923"
+                  className="inline-flex items-center justify-center gap-3 bg-white/5 backdrop-blur-xl border border-white/20 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all text-white flex-1 sm:flex-none"
+                >
+                  <Headphones className="h-5 w-5" /> +92 327 5873923
+                </a>
+                <a
+                  href="tel:+923335400462"
+                  className="inline-flex items-center justify-center gap-3 bg-white/5 backdrop-blur-xl border border-white/20 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all text-white flex-1 sm:flex-none"
+                >
+                  <Headphones className="h-5 w-5" /> +92 333 5400462
+                </a>
+              </div>
               <div className="mt-4 flex -space-x-3">
                 {[1, 2, 3, 4].map((i) => (
                   <div

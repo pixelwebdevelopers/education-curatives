@@ -61,9 +61,15 @@ export function Header() {
               Global Reach, Local Support
             </span>
           </div>
-          <a href="tel:+923275873923" className="flex items-center gap-2 text-navy hover:text-primary transition-colors font-bold">
-            <Phone className="h-3 w-3" /> +92 327 5873923
-          </a>
+          <div className="flex items-center gap-4">
+            <a href="tel:+923275873923" className="flex items-center gap-2 text-navy hover:text-primary transition-colors font-bold">
+              <Phone className="h-3 w-3" /> +92 327 5873923
+            </a>
+            <span className="h-3 w-[1px] bg-navy/10" />
+            <a href="tel:+923335400462" className="flex items-center gap-2 text-navy hover:text-primary transition-colors font-bold">
+              <Phone className="h-3 w-3" /> +92 333 5400462
+            </a>
+          </div>
         </div>
       </div>
 
@@ -224,9 +230,14 @@ export function Header() {
                       <a href="mailto:info@educationcuratives.com" className="block text-white/70 hover:text-white transition-colors">
                         info@educationcuratives.com
                       </a>
-                      <a href="tel:+923275873923" className="block text-xl font-bold text-white hover:text-primary transition-colors">
-                        +92 327 5873923
-                      </a>
+                      <div className="space-y-1">
+                        <a href="tel:+923275873923" className="block text-xl font-bold text-white hover:text-primary transition-colors">
+                          +92 327 5873923
+                        </a>
+                        <a href="tel:+923335400462" className="block text-xl font-bold text-white hover:text-primary transition-colors">
+                          +92 333 5400462
+                        </a>
+                      </div>
                     </div>
                   </div>
 

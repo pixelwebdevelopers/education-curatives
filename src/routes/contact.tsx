@@ -10,7 +10,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact Education Curatives — Rawalpindi & Wallan Offices" },
-      { name: "description", content: "Visit Education Curatives at 28-A Jhelum Road, Morgah Mohr, Rawalpindi or our Wallan, Victoria office. Call +92 327 5873923 for a free discovery call." },
+      { name: "description", content: "Visit Education Curatives at House 761, St 7e, Lane 7, Gulistan colony, Rawalpindi or our Wallan, Victoria office. Call +92 327 5873923 or +92 333 5400462 for a free discovery call." },
       { property: "og:title", content: "Contact Education Curatives" },
       { property: "og:description", content: "Free discovery call — let's curate your global future." },
       { property: "og:image", content: building },
@@ -110,8 +110,9 @@ function Contact() {
                   </div>
                   <div className="text-sm leading-relaxed">
                     <div className="font-semibold mb-1">Pakistan Studio</div>
-                    28-A, Jhelum Road,<br />
-                    Morgah Mohr, Rawalpindi
+                    House 761, St 7e, Lane 7,<br />
+                    Gulistan colony, Rawalpindi<br />
+                    <span className="opacity-60 text-xs">(Near Joyland)</span>
                   </div>
                 </li>
                 <li className="flex gap-4">
@@ -130,7 +131,10 @@ function Contact() {
                   </div>
                   <div className="text-sm">
                     <div className="font-semibold mb-1">Call Us</div>
-                    <a href="tel:+923275873923" className="hover:text-[var(--color-accent-gold)] block">+92 327 5873923</a>
+                    <div className="space-y-1">
+                      <a href="tel:+923275873923" className="hover:text-[var(--color-accent-gold)] block transition-colors">+92 327 5873923</a>
+                      <a href="tel:+923335400462" className="hover:text-[var(--color-accent-gold)] block transition-colors">+92 333 5400462</a>
+                    </div>
                   </div>
                 </li>
                 <li className="flex gap-4">
@@ -173,7 +177,7 @@ function Contact() {
         <div className="rounded-3xl overflow-hidden shadow-elegant border border-border h-96">
           <iframe
             title="Education Curatives Rawalpindi office map"
-            src="https://www.google.com/maps?q=28-A+Jhelum+Road+Morgah+Rawalpindi&output=embed"
+            src="https://www.google.com/maps?q=House+761+St+7e+Lane+7+Gulistan+colony+Rawalpindi&output=embed"
             className="w-full h-full border-0"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"

@@ -72,8 +72,9 @@ export function Footer() {
               <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
               <span>
                 <span className="font-semibold text-navy-foreground block">Pakistan Office</span>
-                28-A, Jhelum Road,<br />
-                Morgah Mohr, Rawalpindi
+                House 761, St 7e, Lane 7,<br />
+                Gulistan colony, Rawalpindi<br />
+                <span className="text-[10px] opacity-60">(Near Joyland)</span>
               </span>
             </li>
             <li className="flex gap-3">
@@ -86,7 +87,10 @@ export function Footer() {
             </li>
             <li className="flex gap-3">
               <Phone className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-              <a href="tel:+923275873923" className="hover:text-[var(--color-accent-gold)]">+92 327 5873923</a>
+              <div className="flex flex-col gap-1">
+                <a href="tel:+923275873923" className="hover:text-[var(--color-accent-gold)] transition-colors">+92 327 5873923</a>
+                <a href="tel:+923335400462" className="hover:text-[var(--color-accent-gold)] transition-colors">+92 333 5400462</a>
+              </div>
             </li>
           </ul>
         </div>
@@ -121,18 +125,6 @@ export function Footer() {
       <div className="relative border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-navy-foreground/55">
           <p>© {new Date().getFullYear()} Education Curatives. All rights reserved.</p>
-          <div className="flex items-center gap-2">
-            <span className="text-navy-foreground/40">Developed by</span>
-            <a 
-              href="https://pixelwebdevelopers.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 group transition-opacity hover:opacity-80"
-            >
-              <span className="font-semibold text-[#FF6600]">Pixel Web Developers</span>
-              <img src={pixelLogo} alt="Pixel" className="h-4 w-auto  transition-all" />
-            </a>
-          </div>
         </div>
       </div>
     </footer>
