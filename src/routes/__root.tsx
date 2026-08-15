@@ -65,6 +65,7 @@ function RootShell({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         {children}
+        <script src="https://cdn.zanderio.ai/widget/loader.js" data-id="wdg_p8qarvPypj2fn9lFxS8WSC1u" defer></script>
         <Scripts />
       </body>
     </html>
